@@ -1,0 +1,160 @@
+body {
+    margin: 0 auto;
+    font-family: Circular,spotify-circular, Helvetica,Arial, sans-serif;
+    font-weight: 700;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1ed760;
+}
+
+nav {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_item {
+    padding: 28px 17px;
+}
+
+main {
+    height: 960px;
+    background-color: rgb(41, 61, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headline {
+    font-size: 146px;
+    font-weight: 900;
+    color: #1ed760;
+    position: relative;
+    bottom: 0.5em;
+}
+
+.first_headline {
+    position: relative;
+    left: -1.0em;
+}
+
+.second_headline {
+    position: relative;
+    right: -1.5em;
+}
+
+.third_headline {
+    text-align: center;
+    color: #1ed760;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+
+.button_area {
+    text-align: center;
+}
+
+.button_style {
+    padding: 14px 32px;
+    background-color: #1ed760;
+    color: rgb(41, 61, 171);
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: inherit;
+}
+
+.button_style:hover {
+    transform: scale(1.07);
+    background-color: #1ed760;
+}
+
+footer {
+    height: 530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_container {
+    width: 1170px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+footer span {
+    color: #919496;
+}
+
+.first_footer {
+    height: 346px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.F_menu {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.menuList{
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 3px;
+}
+
+.second_footer {
+    position: relative;
+    left: 95%;
+}
+
+.third_footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.SNS {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;   
+}
+
+.icon_box {
+    background-color: #222322;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.list2 {
+    color: #919496;
+}
